@@ -159,7 +159,7 @@ func main() {
 				continue
 
 			}
-			fmt.Println(""))
+			fmt.Println("")
 			break
 		case "rm":
 			err := client.DeleteFile(commands[1])
@@ -168,7 +168,7 @@ func main() {
 				continue
 
 			}
-			fmt.Println("ok ..."))
+			fmt.Println("ok ...")
 			break
 
 		}
